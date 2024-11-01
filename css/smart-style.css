@@ -1,0 +1,119 @@
+.main_smart {
+ width:1035px;
+ height:800px;
+ margin-left:auto;
+ margin-right:auto;
+ padding-right: 3px;
+ display:block;
+ background-color:#ffffff;
+}
+
+.left_smart{
+ float:left;
+ padding-left:10px;
+ padding-right:10px;
+ width:400px;
+ background-color:#ffffff;
+}
+
+.right_smart, .right_smart_two {
+ float:right;
+ padding-left:10px;
+ padding-right:auto;
+ padding-top:3px;
+ padding-bottom:3px;
+ width:600px;
+ display:block;
+ background-color:#ffffff;
+ overflow-x:scroll;
+}
+
+.right_smart_two {
+ margin-top:3px;
+ font-size:16px;
+ height:200px;
+ overflow-x:hidden;
+}
+
+p.list-ad a {
+ color:blue;
+}
+
+#result, #results {
+ position:relative;
+ color:#000000;
+ pointer-events: none;
+}
+
+.nav-smart-tabs-wrapper, .smart-header-setting {
+ width:900px;
+ height:35px;
+ display:block;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+.smart-header-setting {
+ height :35px;
+ margin-top:3px;
+ background-image:url('img/smart.png');
+ background-repeat:no-repeat;
+}
+
+.nav-smart-tabs-wrapper a.nav-tab {
+ position:relative;
+ margin-top:0px;
+ padding:5px;
+ font-size:10px;
+ 
+ background-color: #ffffff;
+ color: #000000;
+ margin-left:1px;
+}
+
+.nav-smart-tabs-wrapper a.nav-tab:hover {
+	box-shadow: 1px 1px 1px 1px #cdcdcd;
+}
+
+.nav-smart-tabs-wrapper a.nav-tab-active {
+ background-color: #f7f7f7;
+ box-shadow: 1px 1px 1px 1px #e3e3e3;
+}
+
+hr.smart {
+ width:80%;
+ display:block;
+ margin-left:10%;
+ margin-right:10%;
+}
+
+.main_smart textarea, .main_smart select#showtimes, .main_smart select#listadgroup, .main_smart select#delsgroup, .main_smart select#delgroup, .main_smart select#listadsgroup, .main_smart select#timeshowing, .main_smart input[type="text"] {
+ background-color: #ffffff;
+ color:#302217;
+}
+
+.smart-ad-side-tag {
+ position:relative;
+ width:100%;
+ margin-top:3%;
+ margin-bottom:3%;
+ padding-left: auto;
+ padding-right: auto;
+}
+
+.smart-ad-top-tag {
+ position:relative;
+ margin-left:5px;
+ margin-right:7px;
+ margin-bottom:1px;
+ margin-top:15px;
+}
+
+.smart-ad-bottom-tag {
+ position:relative;
+ clear:both;
+ margin-left:27%;
+ margin-right:auto;
+ margin-top:6px;
+ margin-bottom:3px;
+}
